@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/*navbar*/
+
+a {
+    text-decoration: none;
+    color: #4A505B;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+nav {
+    background-color: #D2D8E4;
+    position: sticky;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 110px;
+}
+
+nav .logo,
+footer .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .logo img,
+footer .logo img {
+    width: 75px;
+}
+
+nav ul,
+footer .top ul {
+    display: flex;
+    gap: 70px
+}
+
+nav button {
+    color: #fff;
+    background-color: #4A505B;
+    padding: 13px 27px;
+    border: 1px solid #4A505B;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+/*navbar*/
+
+/*heropage*/
+
+.hero {
+    background-color: #4A505B;
+    padding: 50px 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 625px;
+}
+
+h5 {
+    font-size: 70px;
+    font-weight: 500;
+    color:#F0F4FE;
+}
+
+pre {
+   font-size: 24px;
+   color:#F0F4FE;
+   margin-top: 10px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.projects-button {
+    color: #fff;
+    background-color: #272E38;
+    padding: 15px 20px;
+    border: 1px solid #272E38;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.resume-button {
+    color: #F0F4FE;
+    background-color: #4A505B;
+    padding: 15px 20px;
+    border: 1px solid #F0F4FE;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*heropage*/
+
+/*footer*/
+
+footer {
+    background-color: #D2D8E4;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .separator {
+    width: 5%;
+    height: 3px;
+    background-color: #4A505B;
+    margin: 45px 195px 0;
+}
+
+footer .bottom p {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 195px;
+    margin-top: 25px;
+}
